@@ -47,15 +47,6 @@ Run npm run start or ng serve. This will start client angularapp on port 4200.
 
 
 
-
-## Assumptions of this application:
-
-* If the json response attribute 'deviationFromTimetable' < 0, the corresponding bus is late
-* If the json response attribute 'deviationFromTimetable' > 0, the corresponding bus is early
-* If the json response attribute 'deviationFromTimetable' = 0, the corresponding bus is on time
-* If the json response attribute 'deviationFromTimetable' = null, the corresponding bus timing is shown as UNKNOWN in the table
-
-
 ## Note
 * The above commands/tasks can be automated and a single command can be used via Grunt or Gulp.
 * Test cases are pending.
