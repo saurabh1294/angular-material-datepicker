@@ -58,7 +58,3 @@ export class DatepickerViewsSelectionExample {
     datepicker.close();
   }
 }
-
-/*export class AppComponent {
-  title = 'app';
-}*/
