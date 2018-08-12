@@ -30,7 +30,7 @@ export const MY_FORMATS = {
 
 /** @title Datepicker emulating a Year and month picker */
 @Component({
-  selector: 'datepicker-views-selection-example',
+  selector: 'app-root datepicker-views-selection-example',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
   providers: [
