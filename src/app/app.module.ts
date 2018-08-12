@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MatNativeDateModule, MatDatepickerModule, MatButtonModule, MatFormFieldModule, MatInputModule, MatRippleModule } from '@angular/material';
+import { MatNativeDateModule, MatDatepickerModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { DatepickerViewsSelectionExample } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,15 +11,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
+	BrowserAnimationsModule,
 	MatDatepickerModule,
 	MatNativeDateModule,
 	FormsModule,
 	ReactiveFormsModule,
-	MatButtonModule,
 	MatFormFieldModule,
-	MatInputModule,
-	MatRippleModule,
-	BrowserAnimationsModule
+	MatInputModule
   ],
   providers: [],
   bootstrap: [DatepickerViewsSelectionExample]
