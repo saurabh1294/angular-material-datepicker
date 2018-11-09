@@ -1,26 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatNativeDateModule, MatDatepickerModule, MatFormFieldModule, MatInputModule, MatSelectModule } from '@angular/material';
-import { DatepickerViewsSelectionExample } from './app.component';
+import { AddBookSelectorListComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [
-    DatepickerViewsSelectionExample
-  ],
+  declarations: [AddBookSelectorListComponent],
   imports: [
     BrowserModule,
-	BrowserAnimationsModule,
-	MatDatepickerModule,
-	MatNativeDateModule,
-	FormsModule,
-	ReactiveFormsModule,
-	MatFormFieldModule,
-	MatInputModule,
-	MatSelectModule
+    BrowserAnimationsModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule
   ],
   providers: [],
-  bootstrap: [DatepickerViewsSelectionExample]
+  bootstrap: [AddBookSelectorListComponent]
 })
-export class AppModule { }
+export class AppModule {}
